@@ -78,7 +78,7 @@ That's it. The whole platform stands up from Git.
 | **IaC** | Pulumi (Python), k3d, k3s v1.31 |
 | **GitOps** | ArgoCD (app-of-apps), sealed-secrets |
 | **CI/CD** | GitHub Actions (reusable workflow), GHCR, Trivy scan |
-| **Networking** | ingress-nginx, MetalLB, cert-manager, istio |
+| **Networking** | ingress-nginx, cert-manager |
 | **Observability** | Prometheus, Grafana, Loki + Promtail, Alertmanager |
 | **Workloads** | garmindashboard |
 
