@@ -72,7 +72,7 @@ Services are exposed via **ingress-nginx** on `*.homelab.local`. Add these to yo
 hosts file (`C:\Windows\System32\drivers\etc\hosts` on Windows, `/etc/hosts` on Linux/WSL):
 
 ```
-127.0.0.1 argocd.homelab.local grafana.homelab.local prometheus.homelab.local garmindashboard.homelab.local
+127.0.0.1 argocd.homelab.local webpixel.homelab.local grafana.homelab.local prometheus.homelab.local
 ```
 
 | Service | URL | Credentials |
@@ -80,7 +80,7 @@ hosts file (`C:\Windows\System32\drivers\etc\hosts` on Windows, `/etc/hosts` on 
 | ArgoCD | http://argocd.homelab.local | `admin` / (password above) |
 | Grafana | http://grafana.homelab.local | `admin` / `changeme` |
 | Prometheus | http://prometheus.homelab.local | — |
-| garmindashboard | http://garmindashboard.homelab.local | — |
+| webpixel | http://webpixel.homelab.local | — |
 
 That's it. The whole platform stands up from Git.
 
@@ -95,7 +95,7 @@ That's it. The whole platform stands up from Git.
 | **CI/CD** | GitHub Actions (reusable workflow), GHCR, Trivy scan |
 | **Networking** | ingress-nginx, cert-manager |
 | **Observability** | Prometheus, Grafana, Loki + Promtail |
-| **Workloads** | garmindashboard |
+| **Workloads** | webpixel |
 
 ---
 
