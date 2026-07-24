@@ -67,6 +67,22 @@ kubectl -n argocd get secret argocd-initial-admin-secret \
   -o jsonpath='{.data.password}' | base64 -d; echo
 ```
 
+### Access the UIs
+
+Services are exposed via **ingress-nginx** on `*.homelab.local`. Add these to your
+hosts file (`C:\Windows\System32\drivers\etc\hosts` on Windows, `/etc/hosts` on Linux/WSL):
+
+```
+127.0.0.1 argocd.homelab.local grafana.homelab.local prometheus.homelab.local garmindashboard.homelab.local
+```
+
+| Service | URL | Credentials |
+|---------|-----|-------------|
+| ArgoCD | http://argocd.homelab.local | `admin` / (password above) |
+| Grafana | http://grafana.homelab.local | `admin` / `changeme` |
+| Prometheus | http://prometheus.homelab.local | — |
+| garmindashboard | http://garmindashboard.homelab.local | — |
+
 That's it. The whole platform stands up from Git.
 
 ---
