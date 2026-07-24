@@ -11,9 +11,8 @@ ArgoCD, which then pulls the entire platform state from Git.
 
 ## 📐 Architecture
 
-![Architecture](docs/architecture.png)
-
-> Interactive diagram: open [`docs/architecture.html`](docs/architecture.html) in a browser.
+📊 **[Open the interactive architecture diagram →](docs/architecture.html)**
+(dark-themed SVG, opens in any browser — no dependencies)
 
 ### The end-to-end flow
 
