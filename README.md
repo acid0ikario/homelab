@@ -80,7 +80,7 @@ That's it. The whole platform stands up from Git.
 | **CI/CD** | GitHub Actions (reusable workflow), GHCR, Trivy scan |
 | **Networking** | ingress-nginx, MetalLB, cert-manager, istio |
 | **Observability** | Prometheus, Grafana, Loki + Promtail, Alertmanager |
-| **Workloads** | garmindashboard, postgrest, bots, microservices-demo |
+| **Workloads** | garmindashboard |
 
 ---
 
