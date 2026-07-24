@@ -79,7 +79,7 @@ That's it. The whole platform stands up from Git.
 | **GitOps** | ArgoCD (app-of-apps), sealed-secrets |
 | **CI/CD** | GitHub Actions (reusable workflow), GHCR, Trivy scan |
 | **Networking** | ingress-nginx, cert-manager |
-| **Observability** | Prometheus, Grafana, Loki + Promtail, Alertmanager |
+| **Observability** | Prometheus, Grafana, Loki + Promtail |
 | **Workloads** | garmindashboard |
 
 ---
